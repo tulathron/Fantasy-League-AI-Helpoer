@@ -1,1 +1,1 @@
-# Fantasy-League-AI-Helpoer
+# Fantasy-League-AI-Helper
