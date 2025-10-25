@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fantasy-league-ai-helper"
+version = "0.1.0"
+description = "Fantasy lineup advisor leveraging Sleeper, ESPN, FantasyPros, OpenWeatherMap, and OpenAI"
+authors = [
+  { name = "Fantasy League AI Helper" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "httpx>=0.25",
+  "pydantic>=2.3",
+  "python-dateutil>=2.8",
+  "openai>=1.6",
+  "tenacity>=8.2"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
